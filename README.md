@@ -9,3 +9,5 @@
 
     https://www.npmjs.com/package/react-imperative-wrapper
 
+### 在线示例
+    https://codesandbox.io/p/github/skzhangyawuzhua/imperative-wrapper-demo/
