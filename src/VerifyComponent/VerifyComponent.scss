@@ -1,0 +1,30 @@
+.auth_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1010;
+  width: 300px;
+  height: 330px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: 2px blue solid;
+
+  .txt {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+
+  .cancel {
+    margin-top: 16px;
+    color: blue;
+    cursor: pointer;
+  }
+}

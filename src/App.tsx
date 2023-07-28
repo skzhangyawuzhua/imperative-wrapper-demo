@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { ReactElement, useEffect } from "react";
+import { WaitableWrapper } from "react-imperative-wrapper";
+import VerifyComponent from "./VerifyComponent/VerifyComponent";
+
+import "./App.css";
 
 function App() {
+  const check = async () => {
+    try {
+      console.log(VerifyComponent);
+      const res = await WaitableWrapper(<VerifyComponent />);
+
+      alert(`组件返回的结果是 ${res}`);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick={check}>点击此处发起验证</button>
     </div>
   );
 }
