@@ -49,7 +49,7 @@
   },
   "pnpm": {
     "peerDependencyRules": {
-      "ignoreMissing": [
+      "allowAny": [
         "react"
       ]
     }
