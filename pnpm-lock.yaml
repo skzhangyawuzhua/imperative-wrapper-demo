@@ -1,5 +1,8 @@
 lockfileVersion: '6.0'
 
+overrides:
+  react: ^18.2.0
+
 dependencies:
   '@alex_xu/react-slider-vertify':
     specifier: ^1.2.0
