@@ -50,7 +50,8 @@
   "pnpm": {
     "peerDependencyRules": {
       "allowAny": [
-        "react"
+        "react",
+        "@alex_xu/react-slider-vertify"
       ]
     }
   }
