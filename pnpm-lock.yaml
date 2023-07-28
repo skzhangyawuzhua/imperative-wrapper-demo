@@ -59,7 +59,7 @@ packages:
   /@alex_xu/react-slider-vertify@1.2.0(react@18.2.0):
     resolution: {integrity: sha512-NOrTnEfBgMHQYzDNOi/6kp6fUdeSuZ1mVImNczqzzzQDPiHHV5Sjwnx/vIhfPA79BWZQiM1qVwgUG/heMPn8zQ==}
     peerDependencies:
-      react: ^16.9.23
+      react: '*'
     dependencies:
       '@babel/runtime': 7.22.6
       react: 18.2.0
@@ -8142,7 +8142,7 @@ packages:
   /react-dom@18.2.0(react@18.2.0):
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
-      react: ^18.2.0
+      react: '*'
     dependencies:
       loose-envify: 1.4.0
       react: 18.2.0
@@ -8183,7 +8183,7 @@ packages:
     hasBin: true
     peerDependencies:
       eslint: '*'
-      react: '>= 16'
+      react: '*'
       typescript: ^3.2.1 || ^4
     peerDependenciesMeta:
       typescript:
