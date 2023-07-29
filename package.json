@@ -2,6 +2,11 @@
   "name": "imperative-wrapper-demo",
   "version": "0.1.0",
   "private": true,
+  "author": "skzhangyawuzhua",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skzhangyawuzhua/imperative-wrapper-demo"
+  },
   "dependencies": {
     "@alex_xu/react-slider-vertify": "^1.2.0",
     "@types/node": "^16.18.36",
