@@ -1,6 +1,6 @@
 # react-imperative-wrapper 库的使用实例
 
-### 用法
+### 启动工程
     pnpm install && pnpm start
 
 ### react-imperative-wrapper :
